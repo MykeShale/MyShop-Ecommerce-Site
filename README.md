@@ -30,7 +30,18 @@ This project is a fully functional **Ecommerce Website** built using **HTML**, *
 4. **Contact Page**:
    - Includes a contact form for user inquiries.
 
-## How to Use
+## ✨ Features
+
+- ✅ Responsive design (mobile, tablet, and desktop support)
+- ✅ Multi-page layout: Home, Shop, About, Contact, Cart
+- ✅ Dynamic product display using the [FakeStore API](https://fakestoreapi.com/)
+- ✅ Sorting products by price (low to high, high to low)
+- ✅ Pagination of products
+- ✅ Basic Cart interface (with badge count)
+- ✅ Contact form with validation
+- ✅ Clean and modern UI using Bootstrap
+
+## 📦 Setup Instructions
 1. **Add to Cart**:
    - Click the "Add to Cart" button on any product to add it to your cart.
    - The cart count in the navigation bar updates dynamically.
@@ -41,7 +52,7 @@ This project is a fully functional **Ecommerce Website** built using **HTML**, *
 
 ## Deployment
 The project is deployed online and can be accessed at:
-[Live Demo](#) *(Replace `#` with the actual deployment link)*
+[MyShop Live Demo](https://my-shop-site.vercel.app/) 
 
 ## Installation
 To run the project locally:
