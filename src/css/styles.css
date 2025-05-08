@@ -1,0 +1,36 @@
+/* Hero Section */
+#heroCarousel {
+    height: 80vh;
+    overflow: hidden;
+  }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-img-top {
+    height: 200px; /* Set a fixed height */
+    width: 100%; /* Ensure the image spans the card width */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+  }
+
+  /* Center caption vertically */
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
